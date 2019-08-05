@@ -1,7 +1,7 @@
-class QuestionsController < ApplicationController
-  def ask
+# frozen_string_literal: true
 
-  end
+class QuestionsController < ApplicationController
+  def ask; end
 
   def answer
     @question = params[:question]
